@@ -27,5 +27,5 @@ def doWork():
         time.sleep(60.0 - ((time.time() - starttime) % 60.0))
         webUrl = urllib2.urlopen("https://api.proxy.com/loadmod/USA/RUSSIA/INDIA/[1]/?method=local&type=php")
 
-sleep(3)
+time.sleep(3)
 print(colored(255,0,0, 'Youre ANONYMOUS'))
